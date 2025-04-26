@@ -1,0 +1,17 @@
+from django.contrib import admin
+from django.urls import path, include
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+
+    path('api/v1/', include('authentication.urls')),
+    path('api/v1/', include('genres.urls')),
+    path('api/v1/', include('artists.urls')),
+    path('api/v1/', include('songs.urls')),
+    path('api/v1/', include('reviews.urls')),
+]
+
+# 165 rever
+# 167 flake8
+# 171
