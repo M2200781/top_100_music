@@ -12,6 +12,4 @@ urlpatterns = [
     path('api/v1/', include('reviews.urls')),
 ]
 
-# 165 rever
-# 167 flake8
-# 171
+
